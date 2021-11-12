@@ -1,0 +1,149 @@
+.menu {
+  text-align: center;
+}
+.menu a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+  padding: 12px 24px;
+  font-size: 23px;
+  transition: 0.7s;
+}
+.menu a:hover {
+  background: rgb(29, 162, 202);
+  border-radius: 10px;
+}
+.header {
+  background: url(img/polygons.png);
+  padding: 200px 0px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 20px;
+  color: white;
+}
+.header a {
+  color: black;
+  text-decoration: none;
+  background: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+}
+.about img {
+  width: 400px;
+  float: right;
+}
+.about {
+  width: 1200px;
+  margin: 0 auto;
+}
+.about h2 {
+  text-align: center;
+}
+.about p {
+  text-align: justify;
+}
+.team {
+  text-align: center;
+}
+.member{
+  border: 1px black solid;
+  width: 20%;
+  display: inline-block;
+  padding: 15px;
+}
+.member img{
+  width: 100%;
+}
+.member a{
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.member a:hover{
+  background: rgb(29, 162, 202);
+  border-radius: 10px;
+}
+.tariff{
+  background-color: gray;
+  text-align: center;
+  color: white;
+}
+.tariff ul{
+  background-color: white;
+  color: black;
+  width: 30%;
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+  margin: 12px;
+}
+.tariff li{
+  border-bottom: 1px solid black;
+  padding: 12px 0;
+}
+.tariff a{
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.menu a:hover {
+  background: rgb(29, 162, 202);
+  border-radius: 10px;
+}
+#basic, #prem{
+  color: white;
+  background-color: black;
+}
+#pro{
+  color: white;
+  background-color:rgb(21, 141, 150);
+}
+.day{
+  opacity: 0.7;
+}
+#basic, #pro, #prem{
+  padding: 24px;
+  font-size: 20px;
+}
+.contact{
+  text-align: center;
+  background-color: rgb(236, 233, 233);
+}
+.address{
+  background:url(img/address.png);
+  
+
+}
+.phone{
+  background: url(img/phone.png);
+}
+.email{
+  background: url(img/mail.png);
+}
+.info{
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  text-align: left;
+  padding-left: 30px;
+}
+.contact input{
+  width: 95%;
+  margin: 10px 0;
+  padding: 8px;
+}
+.contact button{
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 12px 24px;
+}
+.contact button:hover{
+  background-color:rgb(78, 166, 201)
+}
